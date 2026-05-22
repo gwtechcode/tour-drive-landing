@@ -1,0 +1,70 @@
+backend:
+  name: github
+  repo: gwtechcode/tour-drive-landing
+  branch: main
+
+media_folder: public/uploads
+public_folder: /uploads
+local_backend: true
+
+collections:
+  - name: site
+    label: Configuracoes do site
+    files:
+      - name: landing
+        label: Landing page
+        file: content/site.json
+        format: json
+        fields:
+          - label: Marca
+            name: brand
+            widget: object
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: Slogan, name: tagline, widget: string }
+              - { label: Localizacao, name: location, widget: string }
+              - { label: WhatsApp, name: whatsapp, widget: string }
+              - { label: E-mail, name: email, widget: string }
+              - { label: GitHub, name: github, widget: string }
+              - { label: Vercel, name: vercel, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Chamada superior, name: eyebrow, widget: string }
+              - { label: Titulo, name: title, widget: string }
+              - { label: Descricao, name: description, widget: text }
+              - { label: Botao principal, name: primaryCta, widget: string }
+              - { label: Botao secundario, name: secondaryCta, widget: string }
+          - label: Indicadores
+            name: metrics
+            widget: list
+            fields:
+              - { label: Valor, name: value, widget: string }
+              - { label: Rotulo, name: label, widget: string }
+          - label: Veiculos
+            name: vehicles
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Nome, name: name, widget: string }
+              - { label: Categoria, name: category, widget: string }
+              - { label: Valor, name: price, widget: string }
+              - { label: Descricao, name: description, widget: text }
+              - { label: Imagem, name: image, widget: string }
+              - label: Caracteristicas
+                name: features
+                widget: list
+                field: { label: Item, name: item, widget: string }
+          - label: Beneficios
+            name: benefits
+            widget: list
+            fields:
+              - { label: Titulo, name: title, widget: string }
+              - { label: Descricao, name: description, widget: text }
+          - label: Perguntas frequentes
+            name: faqs
+            widget: list
+            fields:
+              - { label: Pergunta, name: question, widget: string }
+              - { label: Resposta, name: answer, widget: text }

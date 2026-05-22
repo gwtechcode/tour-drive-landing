@@ -1,0 +1,98 @@
+{
+  "brand": {
+    "name": "VistaRide",
+    "tagline": "Mobilidade premium para turistas",
+    "location": "Brasil",
+    "whatsapp": "5511999999999",
+    "email": "reservas@vistaride.com",
+    "github": "https://github.com/gwtechcode",
+    "vercel": "https://vercel.com/gwtechcode-8479s-projects"
+  },
+  "hero": {
+    "eyebrow": "Locacao inteligente",
+    "title": "Explore cada destino com o veiculo certo esperando por voce.",
+    "description": "Uma experiencia rapida, transparente e premium para turistas alugarem carros, SUVs, vans e eletricos com suporte local e retirada simplificada.",
+    "primaryCta": "Ver veiculos",
+    "secondaryCta": "Falar no WhatsApp"
+  },
+  "metrics": [
+    {
+      "value": "24/7",
+      "label": "suporte para viajantes"
+    },
+    {
+      "value": "15 min",
+      "label": "pre-reserva guiada"
+    },
+    {
+      "value": "100%",
+      "label": "frota revisada"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "compact-premium",
+      "name": "Compacto Premium",
+      "category": "Cidade",
+      "price": "R$ 189/dia",
+      "description": "Agil para centros historicos, economico para roteiros urbanos e confortavel para ate 4 pessoas.",
+      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=85",
+      "features": ["Automatico", "Ar-condicionado", "Bagagem media"]
+    },
+    {
+      "id": "suv-adventure",
+      "name": "SUV Adventure",
+      "category": "Praia e serra",
+      "price": "R$ 329/dia",
+      "description": "Espaco, estabilidade e conforto para familias que querem circular entre praias, mirantes e estradas longas.",
+      "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85",
+      "features": ["5 lugares", "Porta-malas amplo", "Assistencia 24h"]
+    },
+    {
+      "id": "electric-city",
+      "name": "Eletrico Urbano",
+      "category": "Sustentavel",
+      "price": "R$ 279/dia",
+      "description": "Silencioso, moderno e ideal para turistas que buscam uma viagem eficiente com pontos de recarga mapeados.",
+      "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=1200&q=85",
+      "features": ["Eletrico", "GPS integrado", "Baixo custo"]
+    },
+    {
+      "id": "executive-van",
+      "name": "Van Executiva",
+      "category": "Grupos",
+      "price": "R$ 549/dia",
+      "description": "Perfeita para grupos, transfers e roteiros guiados com conforto, espaco interno e motorista opcional.",
+      "image": "https://images.unsplash.com/photo-1609520505218-7421df70121d?auto=format&fit=crop&w=1200&q=85",
+      "features": ["Ate 12 pessoas", "Transfer", "Motorista opcional"]
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Retirada sem friccao",
+      "description": "Fluxo preparado para aeroporto, hotel ou ponto turistico, com checklist digital e confirmacao rapida."
+    },
+    {
+      "title": "Preco transparente",
+      "description": "Valores diarios claros, sem surpresas na reserva e com espaco para regras futuras de tarifas dinamicas."
+    },
+    {
+      "title": "Pronto para integrar",
+      "description": "Base preparada para reservas, pagamento online, WhatsApp, CRM e painel administrativo."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Posso reservar pelo WhatsApp?",
+      "answer": "Sim. A landing ja direciona o cliente para o WhatsApp, e a estrutura permite automatizar esse fluxo depois."
+    },
+    {
+      "question": "O cliente consegue editar os veiculos?",
+      "answer": "Sim. Nesta primeira versao, os dados ficam em um CMS simples via arquivo JSON. Futuramente pode virar painel administrativo."
+    },
+    {
+      "question": "Esta pronto para Vercel?",
+      "answer": "Sim. O projeto usa Next.js, build padrao e configuracao compativel com deploy direto na Vercel."
+    }
+  ]
+}
